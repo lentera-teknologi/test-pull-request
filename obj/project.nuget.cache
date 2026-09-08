@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "HDddWqwKX5Y=",
+  "success": true,
+  "projectFilePath": "/Users/m.barokah/test-pull-request/test-pull-request.csproj",
+  "expectedPackageFiles": [
+    "/Users/m.barokah/.nuget/packages/microsoft.aspnetcore.openapi/10.0.6/microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
+    "/Users/m.barokah/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "/Users/m.barokah/test-pull-request/test-pull-request.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/m.barokah/test-pull-request/test-pull-request.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
